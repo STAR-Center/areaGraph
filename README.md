@@ -51,11 +51,11 @@ if you don't know the door width and corridor width of the environment, set it a
 
 example: 
 ```
-./bin/example_segmentation ~/Freiburg79_scan_furnitures_trashbins.png 0.05 -1 -1 1.5
+./bin/example_segmentation ../dataset/input/Freiburg79_scan_furnitures_trashbins.png 0.05 -1 -1 1.5
 ```
 or
 ```
-./bin/example_segmentation ~/Freiburg79_scan_furnitures_trashbins.png 0.05 0.85 2.7 1.5
+./bin/example_segmentation ../dataset/input/Freiburg79_scan_furnitures_trashbins.png 0.05 0.85 2.7 1.5
 ```
 
 
