@@ -1,0 +1,19 @@
+resolution (m/pixel):
+Freiburg79_scan_furnitures_trashbins.png 0.05
+Freiburg101_scan.png 0.05
+freiburg_building79.png 0.05
+
+widest door width (m) and narrowest corridor width (m):
+Freiburg79_scan_furnitures_trashbins.png 0.85 2.7
+Freiburg101_scan.png 1.15 6
+freiburg_building79.png 1.3 2.05
+
+w (m) according to strategy:
+Freiburg79_scan_furnitures_trashbins.png 0.95
+Freiburg101_scan.png 1.25
+freiburg_building79.png 1.4
+
+noise percentage:
+Freiburg79_scan_furnitures_trashbins.png 1.5
+Freiburg101_scan.png 0
+freiburg_building79.png 3.5
