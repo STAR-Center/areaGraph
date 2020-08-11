@@ -211,7 +211,8 @@ int main(int argc, char *argv[]) {
     double t_wholeloop = geneAG - start;
 
     RMGraph.mergeRoomPolygons();
-    std::cout << "Area Graph generation use time: " << t_wholeloop / CLOCKS_PER_SEC << std::endl;
+    std::cout << "Area Graph generation use time (including denoising pre-processiong): " << t_wholeloop / CLOCKS_PER_SEC << std::endl;
+    std::cout << "Area Graph generation use time: " << (double)(geneAG-afterAlphaRemoval) / CLOCKS_PER_SEC << std::endl;
 
 //    QImage RMGIm = test;
 //    RMGraph.draw( RMGIm );
